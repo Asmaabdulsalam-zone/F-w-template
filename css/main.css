@@ -327,6 +327,7 @@ header {
 
   .footer p {
     margin: .2rem 0; } }
+
 @media (max-width: 768px) {
   .W_F, header .logo {
     float: none;
@@ -343,7 +344,7 @@ header {
     font-size: 0.8rem; }
 
   .item-position, .need, .service, .download, .in_touch {
-    padding: 8.5rem 0; }
+    padding: 4.5rem 0; }
 
   header {
     text-align: center;
