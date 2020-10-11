@@ -280,6 +280,9 @@ header {
 
 }*/
 @media (max-width: 1199px) {
+  .home {
+    height: 90vh;
+  }
   .W_F, header .logo {
     width: 55%; }
 
