@@ -9,4 +9,3 @@ $(function () {
         $('.'+$(this).data('class')).fadeIn();*/
     });
 });
-

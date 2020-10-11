@@ -170,12 +170,31 @@
        <p> &copy; Copyright Zetta Zone. All Rights Reserved</p>
    </div>
    
+ <!--------- Start Loading ----------->
+
+    <div class="loading-overlay">
+        <div class="spinner">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+          </div>
+    </div>
+
+    <!--------- End Loading ----------->
 
     <script src="js/wow.min.js"></script>
     <script src="js/jQuery.js"></script>
     <script src="js/custom.js"></script>
     <script>
     new WOW().init();
+    </script>
+
+    <script>
+        $(window).on('load', function(){ 
+            $(".loading-overlay").fadeOut(2000, function(){
+    $("body").css("overflow","auto");
+    $(this).remove();
+});
+});
     </script>
 </body>
 </html>
